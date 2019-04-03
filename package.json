@@ -1,0 +1,19 @@
+{
+  "name": "crawlnewstranslate",
+  "version": "1.0.0",
+  "description": "抓取国外网站相关信息并通过谷歌翻译成中文",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Shicw",
+  "license": "ISC",
+  "dependencies": {
+    "bluebird": "^3.5.3",
+    "cheerio": "^1.0.0-rc.2",
+    "mysql": "^2.16.0",
+    "promise-mysql": "^3.3.1",
+    "querystring": "^0.2.0",
+    "request": "^2.88.0"
+  }
+}
